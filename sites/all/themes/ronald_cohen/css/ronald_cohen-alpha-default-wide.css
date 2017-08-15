@@ -1,0 +1,27 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+
+
+
+#section-content {
+	background:url(/sites/all/themes/ronald_cohen/images/pagebg.png) repeat-x left bottom;
+	padding-bottom:1.5em;
+	} 
+
+
+.views-field-field-cimg {
+	border-right:30px solid #6e797f;
+	float:left;
+	margin-right:30px;
+	width:auto;
+}
+
+
+
+
+.views-field-field-qt .field-content p {
+	font-size:1.1em;
+	line-height:1.2em;
+	display:block;
+  	padding:1em;
+}	
