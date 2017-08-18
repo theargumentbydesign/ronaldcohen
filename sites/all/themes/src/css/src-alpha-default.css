@@ -1,0 +1,44 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+#section-content {
+	padding-bottom:3.5em;
+	} 
+#region-sidebar-first {
+	padding-bottom:1.5em;	
+}
+
+
+
+.homeimage {
+	width:60%;
+	float:left;
+}
+ 
+.homequote {
+	color:#FFF;
+	z-index:1000;
+	background:rgba(0,0,0,0.73);
+	font-size:1em;
+	width:38%;
+	padding:1%;
+	float:right;
+	position:absolute;
+	bottom:0;
+	right:0;
+	top:0;
+}
+
+
+.homequote p {
+	font-size:0.9em;
+	line-height:1.1em;
+}
+
+
+#zone-postscript .block {
+	height:270px;
+	font-size:0.8em;
+	font-size:0.8rem;
+	line-height:1.2em;
+	margin-bottom:20px;
+}

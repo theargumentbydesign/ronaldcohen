@@ -1,0 +1,12 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+
+.homequote p {
+	font-size:1.1em;
+	line-height:1.3em;
+}
+
+.homequote {
+	width:34%;
+	padding:3%;
+}

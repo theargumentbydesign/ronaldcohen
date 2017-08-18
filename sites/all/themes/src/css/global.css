@@ -1,0 +1,715 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+html {height:100%;} 
+
+body {
+	height:100%;
+	font-family:'Montserrat', Helvetica, sans-serif;
+	font-weight:100;
+	font-size:100%;
+} 
+
+a, a:link {
+	text-decoration:none;
+	line-height:1em;
+}
+
+strong, b {
+	font-family:'Montserrat';
+	font-weight:600;
+}
+
+em, i {
+	font-family:'Montserrat';
+	font-style:italic;	
+}
+
+em + strong, b + i, strong + em, i + b {
+	font-family:'Montserrat';
+	font-style:italic;	
+	font-weight:600;
+}
+
+li {
+	margin:0 0 1em 0;
+	line-height:1.2 em;
+}
+
+br {
+	padding:0;
+	margin:0;
+}
+
+/*  WHOLEPAGE FORMATTING */
+
+#page {
+	background-color: rgba(181,200,210,.75);
+	min-height:100%;
+	position:relative;
+}
+
+/*  HEADER< BRANDING AND MENUBAR */
+
+
+#region-user-second {
+	margin-top:0.5em;
+}
+
+#section-header {background-color:#3d8696;} 
+
+	img#logo {width:100%;max-width:100%;} 
+	
+#zone-menu-wrapper {
+	background-color:rgba(0,0,0,1.00);
+	height:inherit;
+	visibility:visible;
+	} 
+
+
+#zone-postscript {
+	padding-bottom:1.5em;
+	} 
+
+/*  MAIN CONTENT AND SIDEBARS */
+
+#section-content{
+	padding-bottom:1.5em;
+}
+
+#page #zone-content{
+	padding-bottom:1.5em;	
+	}
+
+
+	
+/*  FOOTER REGION FORMATTING */
+#section-footer {background-color: rgba(181,200,210,1.0);padding-top:20px;position:absolute;bottom:0;width:100%;}
+#zone-footer a {color:#fff;font-size:0.8em;font-size:0.8rem;}
+#region-footer-first {width:100%;float:left;font-size:0.8em;font-size:0.8rem;}
+#region-footer-first li {float:right;text-align:right;list-style:none;padding:0;margin-right:2em;}
+
+
+
+/* other stuff */
+
+.field-name-field-files {
+		font-family:'Montserrat';
+		background:url(/sites/all/themes/ronald_cohen/images/bggrad.png) -400px -400px no-repeat;
+		font-size:0.8em;
+		font-size:0.8rem;
+		margin:1em 0;
+		border:1px solid #fff;
+		padding:1em;	
+}
+
+
+.field-name-field-files .field-item, .field-name-field-files .field-label {
+			margin:0 0 0.5em 0;
+}
+
+		/*  Sidebar GENERIC FORMATTING */
+		
+		
+		
+		#region-sidebar-first,
+		#region-content{
+			padding-top:1.5em;
+		}
+		
+		
+		#region-sidebar-first .block {
+			background-color:rgba(61,134,150,.50) ;
+			font-size:0.8em;
+			font-size:0.8rem;
+			margin:0 0 1em 0;
+			color:#fff;
+			padding:0.75em;	
+		}
+		
+		#region-sidebar-first ul {
+			list-style:none;
+			list-style-image:none;
+			background:none;
+			padding:0.5em 0.25em 0;
+
+		}
+		 #region-sidebar-first li {
+			list-style:none;
+			list-style-image:none;
+			background:none;
+			padding:0.5em 0.25em;
+		}
+		
+		
+		#region-sidebar-first li:hover, 
+		#region-sidebar-first li.active-trail {
+			background-color:rgba(61,134,150,1.00);
+		}
+		
+		#region-sidebar-first li a {
+			text-decoration:none;
+			color:#fff;
+		}
+		
+				#region-sidebar-first li a:hover {
+			text-decoration:none;
+			color:#000;
+		}
+		
+		#region-sidebar-first  #block-block-14
+		 {
+			background:none;
+			border-radius:0;
+			margin:0 0 1em 0;
+			border:none;
+			padding:4em 0 0 0;	
+		}
+		
+		
+		#region-sidebar-first .block h2 {
+			font-family:'Montserrat';
+			font-weight: 600;
+			line-height:1.1em;
+			margin:0 0.5em 1em 0;
+		}		
+
+
+		#region-sidebar-first .block p {
+			line-height:1.2em;
+			margin:0 0 10px 0;
+		}	
+		
+		#region-sidebar-first #block-block-13 p {
+			color:#000;
+		}	
+		
+		
+		#region-sidebar-first .block p a {
+			display:block;
+			color:#fff;
+			padding:0.3em;
+		}		
+	
+			#region-sidebar-first .block p a:hover {
+			background:url(/sites/all/themes/ronald_cohen/images/bggrad.png) -50px -200px no-repeat;
+			color:#000;
+		}		
+
+		
+
+
+
+/*  POSTSCRIPT REGION FORMATTING */
+
+#zone-postscript-wrapper {
+	margin-bottom:20px;
+}
+
+	#region-postscript-first .block {
+		background-color:rgba(61,134,150,1.00) ;
+}
+
+	#region-postscript-second .block {
+		background-color:rgba(61,134,150,.50) ;
+}
+
+#region-postscript-fourth .block {
+	background-color:rgba(61,134,150,.2) ;
+
+	}
+
+#zone-postscript .block {
+	height:auto;
+	font-size:0.8em;
+	font-size:0.8rem;
+	line-height:1.2em;
+	margin-bottom:20px;
+}
+		.front #zone-postscript .block h2 {
+			font-family:'Montserrat';
+			line-height:1.1em;
+			margin:0 0 1em 0;
+		}
+
+
+	.front #region-postscript-first .block-inner {
+			margin-right:1em; 
+			padding:2em;
+			color:#ffffff;
+	}
+
+	#region-postscript-first a {color:#fff;}
+		
+	#region-postscript-second .block-inner {
+			margin:0;
+			color:#002937;
+			padding:2em;
+			}
+	#region-postscript-fourth .block-inner {
+			margin:0;
+			color:#002937;
+			padding:2em;
+			}
+
+
+
+
+	
+
+
+
+
+/* HTML ELEMENTS */
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Montserrat';font-weight:600;
+	margin-bottom:20px;
+	letter-spacing:normal;
+}
+
+.block-title {
+	margin-bottom:10px !important;
+}
+
+h1 {
+	color:#fff;
+	letter-spacing:0.001em;
+	}
+
+hgroup.site-name-slogan {
+	float:none;
+	clear:left;
+}
+
+h6.site-slogan {
+	color:#fff;
+	font-family:'Montserrat';
+	font-size:1.2em;
+	margin:0 0 1em 0;
+}
+
+#breadcrumb {display:none;}
+
+
+
+
+/**
+ *  Homepage carousel and gallery
+**/
+ 
+#block-views-homepage-slideshow-block  {
+	float:left;
+}
+
+
+.flex-direction-nav .flex-next,
+.flex-direction-nav .flex-prev {
+	padding:20px;
+	color:#fff;
+}
+
+#flexslider-1 {
+	border:none;
+	border-radius: 0;
+	background:none;
+	margin-bottom:0;
+}
+
+
+#flexslider-1 li {
+}
+
+.homequote {
+	color:#FFF;
+	z-index:1000;
+	background:rgba(0,0,0,0.73);
+	font-size:1em;
+	width:100%;
+	float:left;
+	padding-top:20px;
+	position:relative;
+	bottom:0;
+}
+.homequote p {
+	color:#FFF;
+	line-height:1.4em;
+	font-size:0.8em;
+	padding:0 20px 20px 20px;
+	margin-bottom:0;
+}
+
+
+/* gallery */
+
+.view-display-id-page_1 .views-row {
+	float:left;
+	width:23%;
+	margin:1%;
+	border-bottom:none;
+}
+	
+
+
+.view-display-id-page_1 .views-row img {
+	width:100%;
+	height:auto;
+}
+	
+	
+/* IMAGE CAPTIONING - WORKS WITH CAPTIONISE.JS */
+
+.captionLeft {
+	width:96%;
+	font-size:0.9em;
+	color:#fff;
+	text-align:left;
+	padding:2%;
+	background-color:#000;
+	bottom:0;
+	left:0;
+} 
+	
+.captionRight {
+	width:96%;
+	font-size:0.9em;
+	color:#fff;
+	text-align:left;
+	padding:2%;
+	background-color:#000;
+	bottom:0;
+	left:0;
+	} 
+	
+.captionCenter {
+	width:96%;
+	font-size:0.9em;
+	color:#fff;
+	text-align:center;
+	padding:2%;
+	background-color:#000;
+	bottom:0;
+	left:0;
+	} 	
+		
+
+.rightimg {
+	padding:0;
+	float:right;
+}
+
+.leftimg {
+	padding:0;
+	float:left;
+}
+
+.centerimg {
+	padding:0;
+}
+
+.centerimg img {
+	padding:0;
+	float:none;
+	margin:0 auto;
+	width:100%;
+}
+
+.right-iframe {
+	padding:0;
+	float:right;
+}
+
+.left-iframe {
+	padding:0;
+	float:left;
+}
+
+.center-iframe {
+	padding:0;
+	float:left;
+	margin:0 auto;
+	width:100%;
+}
+
+
+iframe {
+	padding:0;
+	float:left;
+	width:100%;
+}
+
+
+
+/* GENERIC VIEWS STYLING1 */
+
+.view h3 {
+	margin-top:2em;
+	font-family:'Montserrat';
+}
+
+.views-row {
+	padding-bottom:0.75em;
+	border-bottom:1px solid rgba(61,134,150,.2);
+	margin-bottom:0.75em;
+	width:100%;
+	float:left;
+}
+
+.views-row-last {
+	border-bottom:none;
+}
+
+
+.views-field-field-logo {
+	float:left;
+	padding:0 1em 1em 0;
+}
+
+.front .views-field-field-logo {
+	width:100%;
+	}
+
+
+.views-label {
+	float:left;
+	padding-right:0.5em;
+}
+
+
+
+
+/* BLOCKS */
+
+/* copyright block */
+#block-block-11 {
+	width:25%;
+	float:left;
+}
+/* homepage blurb block */
+#block-block-16 {
+	width:100%;
+	float:left;
+	padding:10px 0 20px;
+}
+
+
+/* footer menu  block */
+#block-menu-menu-fm  {
+	width:25%;
+	float:right;
+} 
+
+
+#block-block-1 {
+	width:25%;
+	float:right;
+	text-align:right;
+	position:relative;
+}
+
+#block-block-1 a {
+	color:#fff;
+	text-decoration:none;
+}
+
+#block-custom-search-blocks-1 {
+	position:absolute;
+	padding:1em 0 0.3em 0;
+	right:0;
+}
+
+#block-custom-search-blocks-1 .form-item {
+	margin:0;
+}
+
+
+#block-custom-search-blocks-1 #edit-custom-search-blocks-form-1--2 {
+	font-family: 'Montserrat';
+	padding:0.40em;
+	background-color:#3A3939;
+	border:none;
+	color:#FFF;
+	font-size:1em;
+}
+
+#block-custom-search-blocks-1 #edit-custom-search-blocks-form-1--2:focus {
+	box-shadow:0 0 7px #fff;
+}
+
+
+
+/* MAIN NAVIGATION MENU */
+#zone-menu-wrapper {
+	height:55px;
+	float:left;
+	width:100%;
+}
+
+ 
+/* The CSS */
+select#superfish-1-select {
+    background:none;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	color:#ffffff;
+	border:none;
+	padding:15px 0 0 0;
+	height:40px;
+	font-size:1.2em;
+	margin: 0;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding.
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select#superfish-1-select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'';
+    font:0px monospace;
+    color:#aaa;
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+ */
+
+
+
+#block-superfish-1 {
+	float:left;
+}
+
+ul#superfish-1 {
+	float:left;
+	padding: 0.75em 0 0.3em 0;
+	margin:0;
+}
+
+ul#superfish-1 > li {
+	font-weight:500;
+	margin:0.7em 2em 0 0;
+	width:inherit;
+}
+
+
+ul#superfish-1 > li.last {
+	margin-right:0;
+}
+
+ul#superfish-1 > li > a {
+	font-family:'Montserrat', Helvetica, sans-serif;
+	font-weight:600;
+	font-size:1em;
+	color:#3d8696;
+	text-decoration:none;
+	text-transform:uppercase;
+	display:block;
+	padding:0;
+	margin:0;
+}
+
+ul#superfish-1 > li a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+
+/* DROPDOWN LEVEL 1 */
+
+
+ ul#superfish-1 li.sf-depth-1 > ul  {
+	opacity:0.9;
+	padding:0;
+	margin:0 0 0 -0.25em;
+	top:2.0em;
+}
+
+
+#block-superfish-1 ul li ul li  {
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #3d8696;
+}
+
+#block-superfish-1 ul li ul li.last  {
+	border-bottom:none;
+}
+
+
+#block-superfish-1 ul li ul li a  {
+	background-color:#002937;
+	text-transform:capitalize;
+	padding:0.5em;
+	color:#FFF;
+}
+
+#block-superfish-1 ul li ul li a:hover  {
+	background-color:#000;
+	text-decoration:none;
+	color:#3d8696;
+}
+
+
+/* FORM STYLING */
+
+input#edit-submitted-name,
+input[type="email"]{
+	padding:10px;
+	font-family:'Montserrat';
+	font-weight:200;
+	font-size:1.2em;
+	height:55px;
+	border:none;
+}
+textarea {
+	border:none;
+	padding:10px;
+}
+
+
+input[type="submit"]{
+	border-radius:0;
+	background-color:#002937;
+	border:none;
+	color:#fff;
+	background-image:none;
+	padding:15px;
+	text-decoration: none;
+	text-shadow: none;
+	font-size:1.2em;
+}
+
+input[type="submit"]:hover{
+	color:#002937;
+}
+
+
+
+
+
+
+
